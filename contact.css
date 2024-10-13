@@ -1,0 +1,309 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+.header{
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.main{
+    width: 40%;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.navbar-link{
+    display: flex;
+    flex-wrap:wrap ;
+    margin-left: 20px;
+}
+ul.navbar-link li {
+    padding: 15px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    
+}
+ul.navbar-link a {
+    text-decoration: none;
+    color: black;
+}
+ul.navbar-link a:hover {
+    color: blue;
+}
+ul.navbar-link li span{
+    color: blue;
+}
+.user-profile{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 18px;
+}
+
+.Contactus{
+    /* background-image: url('/images/Doctors-pannel-1536x384.jpg'); */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 360px;
+    padding: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+.form-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Contactus-container{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    color: whitesmoke;
+}
+.form{
+    margin-top: 50px;
+    
+}
+
+.Contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.Conatct-heading{
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.conatctus-form{
+    width: 100%;
+    border: 1px solid rgb(195, 193, 193);
+    
+}
+.quick-contact{
+    width: 100%;
+    border: 1px solid rgb(195, 193, 193);
+    
+}
+.quick-contact h4{
+    font-size: 25px;
+    padding: 10px;
+}
+.location-contact, .contact-quick ,.email-contact {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: auto;
+    
+}
+.location-contact span, .contact-quick span ,.email-contact  span{
+    border: 1px solid rgb(195, 193, 193);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: blue;
+    margin: 5px;  
+}
+.location-contact p, .contact-quick p ,.email-contact  p{
+    margin: 5px;
+    padding: 5px;
+}
+.conatctus-form h4{
+    font-size: 25px;
+    margin-bottom: -40px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.contact-heading{
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.form-group{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-group1{
+    padding: 10px;
+    width: 100%;
+}
+.form-field{
+    padding: 15px;
+    width: 100%;
+    border:1px solid rgb(195, 193, 193);
+}
+
+.Submit-button{
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 18px;
+
+}
+.button{
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.contact-format{
+    width: 70%;
+    padding-right: 15px;
+}
+.quick-format{
+    width: 30%;
+    padding-left: 10px;
+}
+/* =====================Footer Section Start==================== */
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    /*padding: 40px;*/
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.aboutus{
+    width: 35%;
+    border-right: 1px solid rgb(222, 221, 221);
+}
+.csc-logo{
+    width: 220px;
+    padding: 5px 10px;
+}
+.about-content{
+    padding: 5px 10px 10px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    word-spacing: 2px;
+}
+.footer{
+    background-color:black;
+}
+.useful-container{
+    padding: 10px;
+    width: 20%;
+}
+.services-container{
+    padding: 10px;
+    width: 20%;
+}
+.Opening-container{
+    padding: 10px;
+    width: 25%;
+}
+.location, .contact ,.email{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: auto;
+    color: grey;
+}
+.footer-heading{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 10px 20px;
+    color: grey;
+}
+.Useful{
+    text-decoration: none;
+    padding: 0px;
+    font-size: 16px;
+    color: grey;
+    margin-top: 15px;
+}
+.useful-links{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.services-links{
+    padding-left: 10px; 
+    padding-bottom: 10px;
+}
+.services{
+    text-decoration: none;
+    padding: 0px;
+    font-size: 16px;
+    color: grey;
+    margin-top: 15px;
+}
+.Useful1{
+    text-decoration: none;
+    padding: 0px;
+    font-size: 16px;
+    color: grey;
+    margin-top: 10px;
+}
+.Copyright{
+    color: grey;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid grey;
+    padding: 10px 100px 10px;
+}
+.location span{
+    border: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;  
+}
+.location p{
+    padding: 10px;
+}
+.contact span{
+    border: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.contact p{
+    padding: 10px;
+}
+.email span{
+    border: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.email p{
+    padding: 10px;
+}
+.Useful:hover{
+    color: blue;
+}
+.services:hover{
+    color: blue;
+}

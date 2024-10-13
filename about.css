@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}.header{
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+a.main-logo{
+    width: 250px;
+}
+.main{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbar-link{
+    display: flex;
+    flex-wrap:wrap ;
+    margin-left: 210px;
+}
+ul.navbar-link li {
+    padding: 15px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px; 
+}
+ul.navbar-link li span{
+    color: blue;
+}
+.user-profile{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 18px;
+}
+ul.navbar-link a {
+    text-decoration: none;
+    color: black;
+}
+ul.navbar-link a:hover {
+    color: blue;
+}
+/*=========================================================NavBar End============================================*/
+.banner{
+    background-image:  url('/images/Doctors-pannel-1536x384.jpg');
+    width: 100%;
+    height: 100%;
+    min-height: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about-heading{
+    font-size: 50px;
+    color: blue;
+}
+/*=========================================================Banner End============================================*/
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+.image2{
+    width: 100%;
+    padding: 50px;
+    
+}
+.about-image{
+    width: 50%;
+}
+.intro{
+    width: 50%; 
+}
+.intro h2{
+    font-size: 100px;
+    margin-top: 50px;
+    opacity: 0.1;
+
+}
+.heading{
+    margin-top: -50px;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+.para {
+    font-size: 14px;
+    padding: 0px 50px 0px 0px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+/*=========================================================Banner End============================================*/
+.box {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.mission{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.mission-content{
+    width: 80%;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.mission-box {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 221, 221);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mission-content h3{
+    padding: 0px 0px 10px;
+    font-size: 20px;
+}
+.vision-content{
+    width: 80%;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.vision-content h3{
+    padding: 0px 0px 10px;
+    font-size: 20px;
+}
+.vision-box {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 221, 221);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box + .box{
+    margin-top: 20px;
+    border-top: 1px solid #e8e7e7;
+    padding-top: 20px;
+}
+/* ===========footer section Start================== */
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    /*padding: 40px;*/
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.aboutus{
+    width: 35%;
+    border-right: 1px solid rgb(222, 221, 221);
+}
+.csc-logo{
+    width: 220px;
+    padding: 5px 10px;
+}
+.about-content{
+    padding: 5px 10px 10px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    word-spacing: 2px;
+}
+.footer{
+    background-color:black;
+}
+.useful-container{
+    padding: 10px;
+    width: 20%;
+}
+.services-container{
+    padding: 10px;
+    width: 20%;
+}
+.Opening-container{
+    padding: 10px;
+    width: 25%;
+}
+.location, .contact ,.email{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: auto;
+    color: grey;
+}
+.footer-heading{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 10px 20px;
+    color: grey;
+}
+.Useful{
+    text-decoration: none;
+    padding: 0px;
+    font-size: 16px;
+    color: grey;
+    margin-top: 15px;
+}
+.useful-links{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.services-links{
+    padding-left: 10px; 
+    padding-bottom: 10px;
+}
+.services{
+    text-decoration: none;
+    padding: 0px;
+    font-size: 16px;
+    color: grey;
+    margin-top: 15px;
+}
+.Useful1{
+    text-decoration: none;
+    padding: 0px;
+    font-size: 16px;
+    color: grey;
+    margin-top: 10px;
+}
+.Copyright{
+    color: grey;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid grey;
+    padding: 10px 100px 10px;
+}
+.location span{
+    border: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;  
+}
+.location p{
+    padding: 10px;
+}
+.contact span{
+    border: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.contact p{
+    padding: 10px;
+}
+.email span{
+    border: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.email p{
+    padding: 10px;
+}
+.Useful:hover{
+    color: blue;
+}
+.services:hover{
+    color: blue;
+}
